@@ -119,13 +119,6 @@ Dimitris Bertsimas 與 Romy Shioda（MIT）在 Operations Research 中提出了*
 | 總座位數 | 約 106 位（因連通桌合併而浮動） |
 | 價位區間 | NT$648 – NT$1,498+/人 |
 
-### 為何選擇此餐廳
-
-- **已知拓樸**：實體桌位佈局由本研究者（該店員工）驗證。
-- **連通桌實例**：後區具備 4 組可合併桌對——Thompson（2002）理論模型的真實案例。
-- **真實約束**：沙發區、兒童椅限制、12 人 VIP 路由均存在於實際營運中，非憑空建模。
-- **inline 整合缺口**：inline 缺乏公開 API，使本研究成為「智慧帶位引擎若可整合，能達成何等效果」的可行性研究。
-
 ---
 
 ## 4️⃣ 座位拓樸與約束
@@ -467,10 +460,3 @@ print(result)
 
 [8] **Sutton, R. S., & Barto, A. G.**（2018）. *Reinforcement Learning: An Introduction*（第二版）. MIT Press.
 > Task C Gymnasium 環境與 PPO 代理人架構的 RL 基礎理論。
-
----
-
-<p align="center">
-  <em>為最佳化餐廳營收管理而設計與開發。</em><br>
-  <em>原燒 台中西屯家樂福店 · 王品集團</em>
-</p>
